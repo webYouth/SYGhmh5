@@ -1,0 +1,45 @@
+body{
+	background: #FAFAFA;
+}
+.mui-content{
+	background: #FAFAFA;
+}
+.mui-table-view-cell{
+	height: 100px;
+	padding-right: 40px !important;
+}
+.mui-table-view-cell>a:not(.mui-btn) {
+	height: 100px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: -11px -15px;
+    padding: inherit;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: inherit;
+}
+.mui-table-view .mui-media-object {
+    line-height: 80px;
+    width: 80px;
+    height: 80px;
+    max-width: 80px;
+    border-radius: 3px;
+}
+.mui-table-view .mui-media-body {
+    overflow: hidden;
+    height: 80px;
+}
+.p-title{
+	font-size: 12px;
+	color: #333333;
+	line-height: 12px;
+}
+.pm-state{
+	display: block;
+	margin-top: 53px;
+	width: 42px;
+	height: 15px;
+	background: url(../img/dpm.png) no-repeat;
+	background-size: 100% 100%;
+}

@@ -1,0 +1,78 @@
+body{
+	background: #FAFAFA;
+}
+.mui-title{
+	font-size: 16px;
+	color: #C79D65;
+}
+.title{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	background: #FFFFFF;
+	box-shadow: 0 1px 1px #666;
+}
+.mui-input-group .mui-input-row:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    height: 0px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+}
+.mui-input-group:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 0px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+}
+.mui-input-row label {
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+    line-height: 1.1;
+    float: left;
+    width: 31%;
+    padding: 11px 15px;
+}
+.mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea {
+    float: left;
+    width: 65%;
+    margin-bottom: 0;
+    padding-left: 5px;
+    border: 1px solid #C79D65;
+  	border-radius: 3px;
+  	color: #666666;
+}
+label{
+	color: #666666;
+}
+.mui-input-row {
+    clear: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#confirmbtn{
+	background: #C79D65;
+	color: #fff;
+	border: 0;
+	width: 77.3%;
+	height: 44px;
+}
+.success-logo{
+	position: absolute;
+	left: 50%;
+	top: 7%;
+	margin-left:-114px;
+}
+.success-title{
+	width: 100%;
+	position: absolute;
+	top: 42.6%;
+}
+

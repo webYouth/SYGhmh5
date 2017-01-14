@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>homePage</title>
+	<!--<script type="text/javascript" src="lib/js/flexible.debug.js"></script>
+	<script type="text/javascript" src="lib/js/flexible_css.debug.js" ></script>-->
+	<link rel="stylesheet" href="lib/css/mui.min.css" />
+	<link rel="stylesheet" href="css/homePage.css" />
+</head>
+<body>
+	<div class="mui-content content1" style="display: block;">
+		<div class="title">
+		    <p style="padding: 5px 0;margin: 0; color: #C79D65; font-size: 16px;text-align: center;font-weight: 600;">2017首届中国奢侈品拍卖会（钟表专场）</p>
+	    	<p style="padding: 5px 0;margin: 0;color: #666; font-size: 14px;text-align: center;font-weight: 600;">报名入口</p>
+		</div>
+		<form class="mui-input-group" style="padding-top: 10px;padding-bottom: 17px;border-bottom: 1px solid #CCCCCC;">
+			<div class="mui-input-row">
+				<label for="userName">姓名：</label>
+				<input type="text" name="userName" class="inp mui-input-clear" id="userName" placeholder="请输入您的姓名" />
+			</div>
+			<div class="mui-input-row">
+				<label for="phone">手机号：</label>
+				<input type="text" name="phone" class="inp mui-input-clear" id="phone" placeholder="请输入您的手机号" />
+			</div>
+			<div class="mui-input-row">
+				<label for="sex">性别：</label>
+				<select style="border: 1px solid #C79D65 !important;border-radius: 3px;">
+					<option value="0">男</option>
+					<option value="1">女</option>
+				</select>
+			</div>
+			<div class="mui-input-row" style="height: 125px;overflow: initial;">
+				<label for="textarea">备注：</label>
+				<textarea id="textarea" class="inp" rows='5' placeholder="请输入商品备注"></textarea>
+			</div>
+			<div class="mui-button-row">
+				<button type="button" class="mui-btn" id="confirmbtn">确认提交</button>
+			</div>
+		</form>
+	</div>
+	<div class="mui-content success" style="display: none;">
+		<div class="wrap">
+			<div class="success-logo" style="background: #FAFAFA;">
+				<img width="228" height="153.5" src="img/bmcg.png"/>
+			</div>
+			<div class="success-title">
+				<p style="text-align: center; font-size: 18px;color: #666666;font-weight: 600;">报名申请提交成功</p>
+				<p style="text-align: center;font-size: 18px;color: #666666;font-weight: 600;">请等待工作人员与您联系</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="lib/js/mui.min.js" ></script>
+</body>
+</html>

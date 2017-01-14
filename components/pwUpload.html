@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+	    <meta content="yes" name="apple-touch-fullscreen">
+	    <meta content="telephone=no,email=no" name="format-detection">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>送拍的拍品</title>
+		<link rel="stylesheet" href="../lib/css/mui.min.css" />
+		<link rel="stylesheet" href="../css/pwUpload.css" />
+	</head>
+	<body class="mui-ios mui-ios-9 mui-ios-9-1">
+		<div class="mui-content">
+		    <p style="font-size: 16px;color: #C79D65;line-height: 39px;text-align: center;font-weight: 600;margin-bottom: 10px;border-bottom:1px solid #CCCCCC;background: #FFFFFF;">2017首届中国奢侈品拍卖会（钟表专场）</p>
+		    <div class="show-photo" style="padding: 0 10px; height: 60px;">
+		    	<p style="font-size: 12px;color: #999999;margin-bottom: 2px;">示意图(白底图)：</p>
+		    	<div class="show-list">
+		    		<ul class="list-img">
+		    			<li><img class="bigimg" data-preview-src="" data-preview-group="1" src="../img/sy1.png"/></li>
+		    			<li><img class="bigimg" data-preview-src="" data-preview-group="1" src="../img/sy2.png"/></li>
+		    			<li><img class="bigimg" data-preview-src="" data-preview-group="1" src="../img/sy3.png"/></li>
+		    			<li><img class="bigimg" data-preview-src="" data-preview-group="1" src="../img/sy4.png"/></li>
+		    			<li><img class="bigimg" data-preview-src="" data-preview-group="1" src="../img/shiyitu.png"/></li>
+		    		</ul>
+		    	</div>
+		    </div>
+		    <div class="upload-photo" style="padding:0 10px;background: #FFFFFF;margin-bottom: 10px;">
+		    	<p style="font-size: 14px;color: #999999;line-height: 14px;">上传图片（至少5张）：</p>
+		    	<div class="upload-list">
+		    		<ul class="upload-img">
+		    			<li style="background: #FFFFFF;"><img src="../img/addphoto.png" alt="add" /></li>
+		    			<li></li>
+		    			<li></li>
+		    			<li></li>
+		    			<li></li>
+		    			<li></li>
+		    			<li></li>
+		    			<li></li>
+		    			<li></li>
+		    			<li></li>
+		    		</ul>
+		    	</div>
+		    </div>
+		    <div class="form_list" style="background: #FFFFFF;">
+		    	<div class="list_brand mui-input-row mui-col-sm-12">
+		    		<label class="mui-col-sm-3 inp_title">*品牌:</label>
+		    		<input class="mui-col-sm-9 inpbg" type="text" placeholder="请选择品牌"/>
+		    	</div>
+		    	<div class="list_movement mui-input-row mui-col-sm-12">
+		    		<label class="mui-col-sm-3 inp_title">*机芯:</label>
+		    		<input class="mui-col-sm-9 inpbg" type="text" placeholder="请选择机芯"/>
+		    	</div>
+		    	<div class="list_routing mui-input-row mui-col-sm-12">
+		    		<label class="mui-col-sm-3 inp_title">*表径:</label>
+		    		<input class="mui-col-sm-9" type="text" placeholder="请输入腕表直径"/>
+		    	</div>
+		    	<div class="list_material mui-input-row mui-col-sm-12">
+		    		<label class="mui-col-sm-3 inp_title">*材质:</label>
+		    		<input class="mui-col-sm-9 inpbg" type="text" placeholder="请选择产品材质"/>
+		    	</div>
+		    	<div class="list_sendprice mui-input-row mui-col-sm-12">
+		    		<label class="mui-col-sm-3 inp_title">送拍价:</label>
+		    		<input class="mui-col-sm-9" type="text" placeholder="请输入送拍价"/>
+		    	</div>
+		    	<div class="list_kovalent mui-input-row mui-col-sm-12">
+		    		<label class="mui-col-sm-3 inp_title">公价:</label>
+		    		<input class="mui-col-sm-9" type="text" placeholder="请输入产品公价"/>
+		    	</div>
+		    </div>
+			<div class="radio_two" style="height: 80px;background: #FFFFFF;margin:10px 0;border-bottom: 1px solid #CCCCCC;">
+				<p style="margin: 0;padding: 10px 10px;color: #666666;">
+					<input type="radio" id="old" name="radio1" checked /><label style="margin-left: 10px;" for="old">已使用</label>
+					<input type="radio" id="new" name="radio1" style="margin-left: 20%;" /><label style="margin-left: 10px;" for="new">未使用</label>
+				</p>
+				<p style="margin: 0;padding: 10px 10px;color: #666666;">
+					<input type="checkbox" id="bz" name="checkbox1" checked /><label style="margin-left: 10px;" for="bz">包装盒</label>
+					<input type="checkbox" id="bx" name="checkbox1" style="margin-left: 20%;" /><label style="margin-left: 10px;" for="bx">保修卡</label>
+				</p>
+			</div>
+			<div class="beizhu mui-input-row" style="background: #FFFFff;">
+				<label for="textarea" style="padding-right: 0;width: 20%;">备注:</label>
+				<textarea id="textarea" style="width: 80%;padding-left: 0;" class="inp" rows='5' placeholder="请输入商品备注"></textarea>
+			</div>
+			<div class="confirm-btn" style="padding: 20px 30px;">
+				<button type="button" class="mui-btn mui-btn-warning mui-btn-block" style="font-size: 20px;margin-bottom: 0;    border: 1px solid #C79D65;background-color: #C79D65;padding: 10px 0;">确认提交</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="../lib/js/mui.min.js" ></script>
+		<script type="text/javascript" src="../lib/js/mui.zoom.js" ></script>
+		<script type="text/javascript" src="../lib/js/mui.previewimage.js" ></script>
+		<script>
+			mui.previewImage();
+		</script>
+	</body>
+</html>
